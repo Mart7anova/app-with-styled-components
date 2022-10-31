@@ -19,8 +19,8 @@ function App() {
             <Flex justifyContent={'center'}>
                 <Title color={'#61dafb'}>Hello</Title>
             </Flex>
-            <Flex flexDirection={'column'}>
-                <Console/>
+            <Flex flexDirection={'column'} margin={'10px 0'}>
+                <Console color={'#61dafb'}/>
                 <Button alignSelf={'flex-end'} color={'#61dafb'}>Sent</Button>
             </Flex>
         </AppWrapper>

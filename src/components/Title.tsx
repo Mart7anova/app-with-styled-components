@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const StyledTitle = styled.div<PropsType>`
   color: ${props => props.color};
+  font-size: 26px;
 `
 
 type PropsType = {
