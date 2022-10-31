@@ -17,11 +17,11 @@ function App() {
     return (
         <AppWrapper>
             <Flex justifyContent={'center'}>
-                <Title color={'#61dafb'}>Hello</Title>
+                <Title>Hello</Title>
             </Flex>
             <Flex flexDirection={'column'} margin={'10px 0'}>
-                <Console color={'#61dafb'}/>
-                <Button alignSelf={'flex-end'} color={'#61dafb'}>Sent</Button>
+                <Console />
+                <Button alignSelf={'flex-end'}>Sent</Button>
             </Flex>
         </AppWrapper>
     );

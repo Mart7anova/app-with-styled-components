@@ -28,12 +28,12 @@ const StyledButton = styled.button.attrs((props) =>({
   }
 
   ${props => props.primary && css<PropsType>`
-    color: ${({color}) => color || 'white'};
+    color: ${props => props.color || props.theme.colors.primary};
     background: ${({background}) => background || 'white'};
   `}
   ${props => props.outline && css<PropsType>`
-    border: 1px solid ${({color}) => color || 'white'};
-    color: ${({color}) => color || 'white'};
+    border: 1px solid ${props => props.color || props.theme.colors.primary};
+    color: ${props => props.color || props.theme.colors.primary};
     background: transparent;
   `}
 `
